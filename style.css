@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', sans-serif;
 }
+
 header{
 position:relative;
 top: 0%;
@@ -16,6 +17,7 @@ justify-content: space-between;
 align-items: center;
 z-index:100;
 }
+
 nav a{
 
     font-size: 18px;
@@ -167,6 +169,53 @@ padding:0 20px;
     margin-top: 10px;
     display: inline-block;
 }
+
+/* Aout Section */
+.aboutContainer {
+    background-color: #ebeef5;
+    padding: 1px;
+    border-radius: 2px;
+}
+
+.cards {
+    max-width: 106.8rem;
+    margin: 30px auto;
+    padding: 6px 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cardsHead {
+    font-size: 1.6rem;
+    letter-spacing: -0.019rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.card1 {
+    margin: 10px;
+}
+
+.card1 p {
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: #787374;
+}
+
+.normalTableData {
+    padding: 14px;
+    color: #787374;
+}
+
+.CardsBody {
+    text-align: center;
+}
+
+.CardsRow {
+    padding-bottom: 10px;
+}
+
+
 
 @media (max-width: 768px) {
     .company-header {
