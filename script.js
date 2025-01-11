@@ -17,3 +17,18 @@ window.onscroll = () => {
 
     });
 };
+document.querySelector('.read-more-btn').addEventListener('click', function () {
+    const moreText = document.querySelector('.more-text');
+    const container = document.querySelector('.container');
+    
+    if (moreText.style.display === 'none' || moreText.style.display === '') {
+      moreText.style.display = 'inline'; // Show the hidden text
+      this.textContent = 'READ LESS'; // Change button text
+      container.style.height = 'auto'; // Adjust container height
+    } else {
+      moreText.style.display = 'none'; // Hide the extra text
+      this.textContent = 'READ MORE'; // Reset button text
+      container.style.height = ''; // Reset container height
+    }
+  });
+ 
