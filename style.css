@@ -271,7 +271,109 @@ input[type="checkbox"]:checked ~ label:before{
     border-radius: 8px;
   }
 
+  /* Aout Section */
+.aboutContainer {
+  background-color: #ebeef5;
+  padding: 1px;
+  border-radius: 2px;
+}
 
+.cardProfLoss {
+  max-width: 106.8rem;
+  margin: 30px auto;
+  padding: 6px 60px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.cardsHead {
+  font-size: 1.6rem;
+  letter-spacing: -0.019rem;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.card1 {
+  margin: 10px;
+}
+
+.card1 p {
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  color: #787374;
+}
+
+.normalTableData {
+  padding: 14px;
+  color: #787374;
+}
+
+.CardsBody {
+  text-align: center;
+}
+
+.CardsRow {
+  padding-bottom: 10px;
+}
+
+.growthTable {
+  max-width: 400px;
+  border: 1.5px solid grey;
+  border-radius: 17px;
+  padding: 17px 40px;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+.GrowthContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2%;
+}
+
+.balanceHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.balanceSheetMain {
+  margin-top: 53px;
+  padding: 20px;
+}
+
+.action-button {
+  padding: 12px;
+  background-color: white;
+  border: 1px solid #9792e6;
+  color: #9792e6;
+  cursor: pointer;
+}
+
+.cardBalanceSheet {
+  max-width: 106.8rem;
+    margin: 30px auto;
+    padding: 6px 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cardCashFlows {
+  max-width: 106.8rem;
+    margin: 30px auto;
+    padding: 6px 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.cardratios {
+  max-width: 106.8rem;
+    margin: 30px auto;
+    padding: 6px 60px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 
 @media (max-width: 768px) {
     .company-header {
@@ -288,6 +390,28 @@ input[type="checkbox"]:checked ~ label:before{
     .metrics-card {
         grid-template-columns: 1fr 1fr;
     }
+
+    .profitLoss {
+      overflow: scroll;
+  }
+
+  .cards {
+      max-width: 106.8rem;
+      margin: 30px auto;
+      padding: 6px 7px;
+      background-color: #ffffff;
+      border-radius: 10px;
+  }
+
+  .CardsRow {
+      padding-bottom: 5px;
+  }
+
+  .GrowthContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -298,6 +422,28 @@ input[type="checkbox"]:checked ~ label:before{
     .company-links {
         flex-wrap: wrap;
     }
+
+    .profitLoss {
+      overflow: scroll;
+  }
+
+  .cards {
+      max-width: 106.8rem;
+      margin: 30px auto;
+      padding: 6px 7px;
+      background-color: #ffffff;
+      border-radius: 10px;
+  }
+
+  .CardsRow {
+      padding-bottom: 5px;
+  }
+
+  .GrowthContainer {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 2%;
+  }
 }
 
 
